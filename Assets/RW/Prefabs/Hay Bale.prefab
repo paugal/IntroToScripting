@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 2109333639914810835}
   m_Layer: 0
   m_Name: Hay Bale
-  m_TagString: Untagged
+  m_TagString: Hay
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -66,7 +66,8 @@ MeshRenderer:
     firstSubMesh: 0
     subMeshCount: 0
   m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
+  m_ProbeAnchor: {fileID: 2709791935418197139, guid: c91d458c12526534eb19d65378204353,
+    type: 3}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
   m_ReceiveGI: 1
@@ -94,7 +95,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 621d65f6d92cd4f458f59f61755a7969, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1
+  speed: 0.3
 --- !u!65 &2566960180800471880
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -106,8 +107,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 3.208185, y: 2.14413, z: 2.1543686}
-  m_Center: {x: 0.027273893, y: -0.024617847, z: 0.070471995}
+  m_Size: {x: 4.142105, y: 2.14413, z: 2.1543686}
+  m_Center: {x: -0.043045998, y: -0.024617791, z: 0.070472}
 --- !u!54 &2109333639914810835
 Rigidbody:
   m_ObjectHideFlags: 0

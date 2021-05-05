@@ -1,10 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class hayMove : MonoBehaviour
 {
     public float speed = 1;
+
 
 
     void Start()
@@ -16,5 +18,6 @@ public class hayMove : MonoBehaviour
     void Update()
     {
         transform.Translate(Vector3.forward * speed, Space.World);
+        
     }
 }

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class SheepMove : MonoBehaviour
 {
-    public float speed = 2;
+    public float speed = 2;  
     void Start()
     {
         
@@ -14,5 +14,13 @@ public class SheepMove : MonoBehaviour
     void Update()
     {
         transform.Translate(Vector3.back * speed, Space.World);
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        
+        if(other.tag != "limit")
+        Destroy(other.gameObject);
+        Destroy(this.gameObject);
     }
 }
